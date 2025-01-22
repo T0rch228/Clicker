@@ -5,6 +5,6 @@ pg.alert("Welcome to clicker. Plese choos the point")
 time.sleep(2)
 point = pg.position()
 pg.alert(point)
-
-while True:
+x = 0
+while x == 0:
     pg.click(point)
